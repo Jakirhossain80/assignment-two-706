@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", serif;
+}
+
+
+
+#headerSection{
+    background-color: #ffffff;
+    width: 100vw;
+    
+}
+
+.container{
+    margin: 0 auto;
+    padding: 20px 100px;
+    width: 100vw;
+        
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* media query */
+
+@media (max-width: 400px) {
+    
+    
+
+}
+  
+  
+  
+  
+  @media (min-width: 401px) {
+
+   
+
+}
+  
