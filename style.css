@@ -135,6 +135,72 @@
  /* -------- navbar section end --------- */
 
 
+ 
+     /* -------- banner section start --------- */
+
+     
+#headerSection{
+    width: 100vw;
+    height: 100%;
+    background-color: #f7f7f7;        
+}
+
+     .bannerContainer{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+     }
+
+     .bannerText{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     }
+
+     .bannerText h2{
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-top: 16px;
+        text-align: center;
+     }
+
+
+     
+    .bannerText button{
+        font-size: 16px;
+        font-weight: 700;
+        border-radius: 10px;
+        padding: 10px 25px;
+        background-color: #000000;
+        transition: all 0.3s ease-in-out;
+
+    }
+
+
+    .bannerText button:hover{
+        transform: scale(105%);
+        
+ 
+     }
+
+
+    .bannerText p{
+        font-size: 0.8rem;
+        font-weight: 300;
+        margin: 24px 0;
+        text-align: center;
+    }
+
+    .bannerImg img{
+        width: 280px;
+        
+    }
+
+     /* -------- banner section end --------- */
+
+
 
 
 
@@ -218,6 +284,74 @@
     }
     
      /* -------- navbar section end --------- */
+
+
+     /* -------- banner section start --------- */
+
+     
+#headerSection{
+    width: 100vw;
+    height: 100%;
+    background-color: #f7f7f7;        
+}
+
+     .bannerContainer{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+     }
+
+     .bannerText{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     }
+
+     .bannerText h2{
+        font-size: 2.6rem;
+        font-weight: 700;
+        margin-top: 16px;
+        text-align: center;
+     }
+
+
+     
+    .bannerText button{
+        font-size: 20px;
+        font-weight: 700;
+        border-radius: 10px;
+        padding: 10px 25px;
+        background-color: #000000;
+        
+        transition: all 0.3s ease-in-out;
+
+    }
+
+
+    .bannerText button:hover{
+        transform: scale(105%);
+        
+ 
+     }
+
+
+    .bannerText p{
+        font-size: 1rem;
+        font-weight: 300;
+        margin: 24px 0;
+        text-align: center;
+    }
+
+    .bannerImg img{
+        width: 420px;
+        
+    }
+
+     /* -------- banner section end --------- */
+
+
 
 
 
@@ -332,6 +466,55 @@
     }
 
      /* -------- navbar section end --------- */
+     
+     
+     
+     /* -------- banner section start --------- */
+
+     .bannerContainer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+     }
+
+     .bannerText h2{
+        font-size: 1.5rem;
+        font-weight: 700;
+     }
+
+     
+     
+    .bannerText button{
+        font-size: 12px;
+        font-weight: 700;
+        border-radius: 10px;
+        padding: 10px 25px;
+        background-color: #000000;
+        transition: all 0.3s ease-in-out;
+
+    }
+
+
+    .bannerText button:hover{
+        transform: scale(105%);
+        
+ 
+     }
+
+
+    .bannerText p{
+        font-size: 0.9rem;
+        font-weight: 300;
+        margin: 24px 0;
+    }
+
+    .bannerImg img{
+        width: 300px;
+        padding-left: 12px;
+    }
+
+     /* -------- banner section end --------- */
 
 
 
@@ -383,6 +566,31 @@
 /* -------- navbar section end --------- */
 
 
+ 
+/* -------- banner section start --------- */
+
+.bannerText h2{
+    font-size: 2rem;        
+ }
+     
+.bannerText button{
+    font-size: 16px;
+    border-radius: 12px;
+    padding: 10px 50px;
+}
+
+.bannerText p{
+    font-size: 1rem;
+    margin: 28px 0;
+}
+
+.bannerImg img{
+    width: 350px;
+}
+
+/* -------- banner section end --------- */
+
+
 
 
 }
@@ -426,6 +634,31 @@
     }
 
  /* -------- navbar section end --------- */
+
+
+ 
+/* -------- banner section start --------- */
+
+     .bannerText h2{
+        font-size: 3.2rem;        
+     }
+         
+    .bannerText button{
+        font-size: 18px;
+        border-radius: 12px;
+        padding: 10px 50px;
+    }
+
+    .bannerText p{
+        font-size: 1.1rem;
+        margin: 28px 0;
+    }
+
+    .bannerImg img{
+        width: 380px;
+    }
+
+/* -------- banner section end --------- */
 
 
 
