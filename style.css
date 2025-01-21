@@ -25,14 +25,11 @@
 }
 
 .btn{
-    font-size: 20px;
-    font-weight: 600;
     color: #ffffff;
-    border-radius: 12px;
     cursor: pointer;
-    padding: 10px 60px;
     border: none;
     outline: none;
+    font-weight: 600;
 }
 
 
@@ -51,9 +48,11 @@
 
 
 
-/* media query */
+/*---------------- media query ------------------*/
 
-/* mobile device */
+
+
+/*-------------- mobile device ----------------*/
 
 @media (max-width: 390px) {
 
@@ -89,12 +88,12 @@
 
 
 
-/* large screen */
+/*------------ large screen -------------- */
 
   
 @media (min-width: 576px) {
     .container{
-        padding: 0 4vw;        
+        padding: 0 7vw;        
     }
 
     .navContainer{
@@ -104,27 +103,30 @@
        
     }
 
-    .navLogo{
-
-        padding: 20px 0;
-        
-    }
 
     .navLogo{
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 5px;
+        padding: 20px 0;
     }
 
 
     .navLogo img{
-        width: 62px;
-        height: 62px;
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        
+    }
+
+    .navLogo img:hover{
+        transform: scale(105%);
     }
 
     .navLogo p{
-        font-size: 2rem;
+        font-size: 1.5rem;
         font-weight: bold;
 
     }
@@ -138,24 +140,40 @@
 
     .navLinks li{
         list-style: none;
+        transition: all 0.3s ease-in-out;
     }
 
     .navLinks li a{
         text-decoration: none;
         padding: 0 15px;
-        font-size: 20px;
+        font-size: 12px;
         font-weight: bold;
+       
     }
+
+
+    .navLinks li:hover{
+        transform: scale(110%);
+    }
+
 
     .navButton button{
+        font-size: 12px;
+        border-radius: 10px;
+        padding: 10px 25px;
         background-color: #fea301;
+        transition: all 0.3s ease-in-out;
+
     }
 
 
-   
+    .navButton button:hover{
+       background-color: #e09108;
+
+    }
 
 
-
+  
 
 }
 
@@ -169,10 +187,33 @@
   
 @media (min-width: 768px) {
     .container{
-        padding: 0 4vw;        
+        padding: 0 6vw;        
     }
 
    
+    .navLogo img{
+        width: 55px;
+        height: 55px;
+    }
+
+    .navLogo p{
+        font-size: 1.7rem;
+        font-weight: bold;
+
+    }
+
+    .navLinks li a{
+        font-size: 16px;
+        
+    }
+
+    .navButton button{
+        font-size: 16px;
+        border-radius: 10px;
+        padding: 10px 40px;
+    
+
+    }
 
 
 
@@ -187,15 +228,35 @@
 
   
 @media (min-width: 992px) {
+    
     .container{
-        padding: 0 3vw;        
+        padding: 0 4vw;        
     }
 
-   
+    .navLogo img{
+        width: 62px;
+        height: 62px;
+    }
 
+    .navLogo p{
+        font-size: 2rem;
+        font-weight: bold;
 
+    }
 
+    .navLinks li a{
+        font-size: 20px;
+        
+    }
+
+    .navButton button{
+        font-size: 20px;
+        border-radius: 12px;
+        padding: 10px 60px;
     
+    }
+
+
 
 }
   
