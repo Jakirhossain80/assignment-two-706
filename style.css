@@ -1,3 +1,6 @@
+
+/* ------ global style -------- */
+
 *{
     margin: 0;
     padding: 0;
@@ -6,22 +9,15 @@
     color: black;
 }
 
+/* ------ global style end -------- */
 
 
-#headerSection{
-    width: 100vw;
-    height: 100vh;
-    background-color: #f7f7f7;
-        
-}
 
-
-/* shared style */
+/* -------- shared style --------- */
 
 .container{
     width: 100vw;
-    margin: 0 auto;
-            
+    margin: 0 auto;            
 }
 
 .btn{
@@ -32,10 +28,20 @@
     font-weight: 600;
 }
 
+/* -------- shared style end --------- */
 
 
 
 
+/* ---- header style----- */
+
+#headerSection{
+    width: 100vw;
+    height: 100vh;
+    background-color: #f7f7f7;        
+}
+
+/* ---- header style end ----- */
 
 
 
@@ -57,30 +63,168 @@
 @media (max-width: 390px) {
 
     .container{
-        padding: 0 6vw;        
+        padding: 0 7vw;        
+    }
+
+    /* -------- navbar section --------- */
+
+    nav{
+        border: 1px solid #fea301;
     }
     
+    .navContainer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       
+    }
+
     
+    .navLogo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        padding: 20px 0;
+    }
+
+
+    .navLogo img{
+        width: 46px;
+        height: 46px;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        
+    }
+
+    .navLogo img:hover{
+        transform: scale(105%);
+    }
+
+  
+    
+    .hamburgerIcon{
+        display: block;
+    }
+
+    
+    .hamburgerIcon .fa-bars{
+        font-size: 40px;
+        font-weight: 600;
+        transition: all 0.3s ease-in-out;
+    }
+
+    
+    .hamburgerIcon:hover .fa-bars{
+        transform: scale(105%);
+    }
+    
+
+    .navLogo p{
+        display: none;
+    }
+
+    .navLinks{
+        display: none;
+    }
+  
+    .navButton{
+        display: none;
+    }
+   
+ /* -------- navbar section end --------- */
+
+
 
 
 
 }
   
   
-  
+
+
 @media (min-width: 391px) {
     .container{
-        padding: 0 5vw;        
+        padding: 0 6vw;        
     }
 
-   
+     /* -------- navbar section --------- */
+
+    nav{
+        border: 1px solid #fea301;
+    }
+    
+    .navContainer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       
+    }
+
+    
+    .navLogo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        padding: 20px 0;
+    }
+
+
+    .navLogo img{
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        
+    }
+
+    .navLogo img:hover{
+        transform: scale(105%);
+    }
+
+    
+
+    
+    .hamburgerIcon{
+        display: block;
+        
+    }
+
+    .hamburgerIcon .fa-bars{
+        font-size: 40px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+
+
+    .hamburgerIcon:hover .fa-bars{
+        transform: scale(105%);
+    }
+
+
+
+    .navLogo p{
+        display: none;
+    }
+
+    .navLinks{
+        display: none;
+    }
+  
+    .navButton{
+        display: none;
+    }
+    
+     /* -------- navbar section end --------- */
 
 
 
 }
 
 
-
+/*-------------- mobile device end ----------------*/
 
 
 
@@ -94,6 +238,12 @@
 @media (min-width: 576px) {
     .container{
         padding: 0 7vw;        
+    }
+
+     /* -------- navbar section --------- */
+
+    nav{
+        border: none;
     }
 
     .navContainer{
@@ -126,12 +276,14 @@
     }
 
     .navLogo p{
+        display: block;
         font-size: 1.5rem;
         font-weight: bold;
 
     }
 
     .navLinks{
+        display: block;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -145,7 +297,7 @@
 
     .navLinks li a{
         text-decoration: none;
-        padding: 0 15px;
+        padding: 0 10px;
         font-size: 12px;
         font-weight: bold;
        
@@ -156,6 +308,9 @@
         transform: scale(110%);
     }
 
+    .navButton{
+        display: block;
+    }
 
     .navButton button{
         font-size: 12px;
@@ -171,6 +326,15 @@
        background-color: #e09108;
 
     }
+
+    .hamburgerIcon{
+        display: none;
+    }
+
+     /* -------- navbar section end --------- */
+
+
+
 
 
   
@@ -190,6 +354,7 @@
         padding: 0 6vw;        
     }
 
+     /* -------- navbar section end --------- */
    
     .navLogo img{
         width: 55px;
@@ -204,16 +369,18 @@
 
     .navLinks li a{
         font-size: 16px;
+        padding: 0 15px;
         
     }
 
     .navButton button{
         font-size: 16px;
         border-radius: 10px;
-        padding: 10px 40px;
-    
+        padding: 10px 40px;    
 
     }
+
+/* -------- navbar section end --------- */
 
 
 
@@ -232,6 +399,8 @@
     .container{
         padding: 0 4vw;        
     }
+
+ /* -------- navbar section --------- */
 
     .navLogo img{
         width: 62px;
@@ -255,6 +424,8 @@
         padding: 10px 60px;
     
     }
+
+ /* -------- navbar section end --------- */
 
 
 
