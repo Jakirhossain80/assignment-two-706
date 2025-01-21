@@ -3,22 +3,42 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Quicksand", serif;
+    color: black;
 }
 
 
 
 #headerSection{
-    background-color: #ffffff;
     width: 100vw;
-    
-}
-
-.container{
-    margin: 0 auto;
-    padding: 20px 100px;
-    width: 100vw;
+    height: 100vh;
+    background-color: #f7f7f7;
         
 }
+
+
+/* shared style */
+
+.container{
+    width: 100vw;
+    margin: 0 auto;
+            
+}
+
+.btn{
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+    border-radius: 12px;
+    cursor: pointer;
+    padding: 10px 60px;
+    border: none;
+    outline: none;
+}
+
+
+
+
+
 
 
 
@@ -33,18 +53,149 @@
 
 /* media query */
 
-@media (max-width: 400px) {
+/* mobile device */
+
+@media (max-width: 390px) {
+
+    .container{
+        padding: 0 6vw;        
+    }
     
     
+
+
 
 }
   
   
   
-  
-  @media (min-width: 401px) {
+@media (min-width: 391px) {
+    .container{
+        padding: 0 5vw;        
+    }
 
    
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/* large screen */
+
+  
+@media (min-width: 576px) {
+    .container{
+        padding: 0 4vw;        
+    }
+
+    .navContainer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       
+    }
+
+    .navLogo{
+
+        padding: 20px 0;
+        
+    }
+
+    .navLogo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+
+
+    .navLogo img{
+        width: 62px;
+        height: 62px;
+    }
+
+    .navLogo p{
+        font-size: 2rem;
+        font-weight: bold;
+
+    }
+
+    .navLinks{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .navLinks li{
+        list-style: none;
+    }
+
+    .navLinks li a{
+        text-decoration: none;
+        padding: 0 15px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .navButton button{
+        background-color: #fea301;
+    }
+
+
+   
+
+
+
+
+}
+
+
+
+
+
+
+
+
+  
+@media (min-width: 768px) {
+    .container{
+        padding: 0 4vw;        
+    }
+
+   
+
+
+
+
+}
+
+
+
+
+
+
+
+  
+@media (min-width: 992px) {
+    .container{
+        padding: 0 3vw;        
+    }
+
+   
+
+
+
+    
 
 }
   
