@@ -28,6 +28,7 @@
     font-weight: 600;
 }
 
+
 /* -------- shared style end --------- */
 
 
@@ -42,6 +43,164 @@
 }
 
 /* ---- header style end ----- */
+
+
+
+/* ------ story section card style ------- */
+
+
+#storySection{
+    width: 100vw;
+    height: 100%;
+    background: linear-gradient(rgba(228, 210, 210, 0.1),rgba(61, 19, 19, 0.4)), url('assets/bg.png');
+    background-position: center;        
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 70px;
+}
+
+
+.storyContainer h3{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    padding: 60px 0 80px;
+
+}
+
+.storyCardParent{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.storyCardLeft{
+    width: 100%;
+    max-width: 850px;
+}
+
+.storyCardRight{
+    width: 100%;
+}
+
+
+.storySingleCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    width: 100%;
+    
+
+}
+
+.storyCardImageDiv{
+    width: 100%;
+}
+
+.storyCardImageDiv img{
+    width: 100%;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.storyCardTextDiv{
+    padding: 30px;
+    margin-top: -5px;
+    background-color: #ffffff;
+    width: 100%;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    position: relative;
+}
+
+.storyCardTextDiv h5{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: left;
+    margin: 20px 0;
+}
+
+.storyCardTextDiv p{
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-align: left;
+    color: #666666;
+    padding: 20px 0;
+}
+
+.storyCardTextDiv button{
+    padding: 12px 20px;
+    border-radius: 47px;
+    background-color: #3CD8E8;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-size: 0.8rem;
+    font-weight: 500;
+    position: absolute;
+    top: 0;
+    left: 30px;
+    margin-top: -20px;
+}
+
+
+.miniCardTextDiv h5{
+    font-size: 0.9rem;
+    margin: 8px 0;
+}
+
+.singleMiniCard{
+    max-width: 450px;
+}
+
+.miniCardTextDiv button{
+    padding: 9px 16px;
+    border-radius: 44px;
+    font-size: 0.7rem;
+    font-weight: 400;
+
+}
+
+.storyCardRight{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.storyButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 0;
+}
+
+.storyButton button{
+    font-size: 22px;
+    font-weight: 700;
+    border-radius: 10px;
+    padding: 12px 55px;
+    background-color: #000000;
+    transition: all 0.3s ease-in-out;
+
+}
+
+
+.storyButton button:hover{
+    transform: scale(105%);    
+
+ }
+
+
+/* ------ story section card style end ------- */
+
 
 
 
@@ -889,14 +1048,40 @@
     gap: 5px;
     font-size: 60px;
     
+    
 }
 
 .navigationBtn .fa-chevron-circle-left, .fa-chevron-circle-right{
     color: #fea301;
+    transition: all 0.3s ease-in-out;
 
 }
 
+.navigationBtn .fa-chevron-circle-left:hover{
+    transform: translateX(-5px);
+}
+.navigationBtn .fa-chevron-circle-right:hover{
+    transform: translateX(5px);
+}
+
+
 /* ---- curriculum section end ----- */
+
+
+
+/* ------- story section start --------- */
+
+
+
+
+/* ------- story section end --------- */
+
+
+
+
+
+
+
 
 
 
