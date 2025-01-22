@@ -79,7 +79,14 @@
 .storyCardLeft{
     width: 100%;
     max-width: 850px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
+
+.storyCardLeft:hover{
+    transform: scale(101%);
+}
+
 
 .storyCardRight{
     width: 100%;
@@ -146,7 +153,15 @@
     top: 0;
     left: 30px;
     margin-top: -20px;
+    transition: all 0.3s ease-in-out;  
+    
 }
+
+
+.storyCardTextDiv button:hover{
+    transform: scale(105%);
+}
+
 
 
 .miniCardTextDiv h5{
@@ -156,6 +171,12 @@
 
 .singleMiniCard{
     max-width: 450px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.singleMiniCard:hover{
+    transform: scale(102%);
 }
 
 .miniCardTextDiv button{
@@ -479,6 +500,176 @@
 
 
 
+/* ------ story section card style ------- */
+
+
+#storySection{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(228, 210, 210, 0.1),rgba(61, 19, 19, 0.4)), url('assets/bg.png');
+    background-position: center;        
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 70px;
+}
+
+.storyContainer{
+    width: 100%;
+}
+
+.storyContainer h3{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 60px 0 80px;
+
+}
+
+
+.storyCardLeft{
+    display: none;
+
+}
+
+.storyCardParent{
+    width: 100%;
+    min-width: 450px;
+}
+
+.storyCardRight{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    max-width: unset;
+
+}
+
+
+.singleMiniCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    max-width: unset;
+    width: 100%;
+   
+
+}
+
+.miniCardImageDiv{
+    width: 100%;
+}
+
+.miniCardImageDiv img{
+    width: 100%;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.miniCardTextDiv{
+    padding: 20px;
+    margin-top: -5px;
+    background-color: #ffffff;
+    width: 100%;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    position: relative;
+}
+
+.miniCardTextDiv h5{
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: left;
+    margin: 20px 0;
+}
+
+
+.miniCardTextDiv button{
+    padding: 6px 10px;
+    border-radius: 40px;
+    background-color: #3CD8E8;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-size: 0.5rem;
+    font-weight: 400;
+    top: 0;
+    left: 10px;
+    margin-top: -20px;
+    transition: all 0.3s ease-in-out;  
+    
+}
+
+
+.miniCardTextDiv button:hover{
+    transform: scale(105%);
+}
+
+
+
+.miniCardTextDiv h5{
+    font-size: 0.9rem;
+    margin: 8px 0;
+}
+
+.singleMiniCard{
+    max-width: 450px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.singleMiniCard:hover{
+    transform: scale(102%);
+}
+
+.miniCardTextDiv button{
+    padding: 9px 16px;
+    border-radius: 44px;
+    font-size: 0.7rem;
+    font-weight: 400;
+
+}
+
+.storyCardRight{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.storyButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 0;
+}
+
+.storyButton button{
+    font-size: 22px;
+    font-weight: 700;
+    border-radius: 10px;
+    padding: 12px 55px;
+    background-color: #000000;
+    transition: all 0.3s ease-in-out;
+
+}
+
+
+.storyButton button:hover{
+    transform: scale(105%);    
+
+ }
+
+
+/* ------ story section card style end ------- */
+
+
 
 
 
@@ -751,8 +942,174 @@
 
 
 
+/* ------ story section card style ------- */
 
 
+#storySection{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(228, 210, 210, 0.1),rgba(61, 19, 19, 0.4)), url('assets/bg.png');
+    background-position: center;        
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 70px;
+}
+
+.storyContainer{
+    width: 100%;
+}
+
+.storyContainer h3{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 60px 0 80px;
+
+}
+
+
+.storyCardLeft{
+    display: none;
+
+}
+
+.storyCardParent{
+    width: 100%;
+    min-width: 950px;
+}
+
+.storyCardRight{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    max-width: unset;
+
+}
+
+
+.singleMiniCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    max-width: unset;
+    width: 100%;
+   
+
+}
+
+.miniCardImageDiv{
+    width: 100%;
+}
+
+.miniCardImageDiv img{
+    width: 100%;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.miniCardTextDiv{
+    padding: 20px;
+    margin-top: -5px;
+    background-color: #ffffff;
+    width: 100%;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    position: relative;
+}
+
+.miniCardTextDiv h5{
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: left;
+    margin: 20px 0;
+}
+
+
+.miniCardTextDiv button{
+    padding: 6px 10px;
+    border-radius: 40px;
+    background-color: #3CD8E8;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-size: 0.5rem;
+    font-weight: 400;
+    top: 0;
+    left: 10px;
+    margin-top: -20px;
+    transition: all 0.3s ease-in-out;  
+    
+}
+
+
+.miniCardTextDiv button:hover{
+    transform: scale(105%);
+}
+
+
+
+.miniCardTextDiv h5{
+    font-size: 0.9rem;
+    margin: 8px 0;
+}
+
+.singleMiniCard{
+    max-width: 450px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.singleMiniCard:hover{
+    transform: scale(102%);
+}
+
+.miniCardTextDiv button{
+    padding: 9px 16px;
+    border-radius: 44px;
+    font-size: 0.7rem;
+    font-weight: 400;
+
+}
+
+.storyCardRight{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.storyButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 0;
+}
+
+.storyButton button{
+    font-size: 22px;
+    font-weight: 700;
+    border-radius: 10px;
+    padding: 12px 55px;
+    background-color: #000000;
+    transition: all 0.3s ease-in-out;
+
+}
+
+
+.storyButton button:hover{
+    transform: scale(105%);    
+
+ }
+
+
+/* ------ story section card style end ------- */
 
 
 
@@ -1069,12 +1426,184 @@
 
 
 
-/* ------- story section start --------- */
+
+
+/* ------ story section card style ------- */
+
+
+#storySection{
+    width: 100vw;
+    height: 100%;
+    background: linear-gradient(rgba(228, 210, 210, 0.1),rgba(61, 19, 19, 0.4)), url('assets/bg.png');
+    background-position: center;        
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 70px;
+}
+
+
+.storyContainer h3{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding: 50px 0 70px;
+
+}
+
+.storyCardParent{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.storyCardLeft{
+    display: block;
+    width: 100%;
+    max-width: 850px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.storyCardLeft:hover{
+    transform: scale(101%);
+}
+
+
+.storyCardRight{
+    width: 100%;
+}
+
+
+.storySingleCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    width: 100%;
+    
+
+}
+
+.storyCardImageDiv{
+    width: 100%;
+}
+
+.storyCardImageDiv img{
+    width: 100%;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.storyCardTextDiv{
+    padding: 15px;
+    margin-top: -5px;
+    background-color: #ffffff;
+    width: 100%;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    position: relative;
+}
+
+.storyCardTextDiv h5{
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: left;
+    margin: 20px 0;
+}
+
+.storyCardTextDiv p{
+    font-size: 0.7rem;
+    font-weight: 400;
+    text-align: left;
+    color: #666666;
+    padding: 15px 0;
+}
+
+.storyCardTextDiv button{
+    padding: 10px 15px;
+    border-radius: 47px;
+    background-color: #3CD8E8;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-size: 0.8rem;
+    font-weight: 500;
+    position: absolute;
+    top: 0;
+    left: 30px;
+    margin-top: -20px;
+    transition: all 0.3s ease-in-out;  
+    
+}
+
+
+.storyCardTextDiv button:hover{
+    transform: scale(105%);
+}
 
 
 
+.miniCardTextDiv h5{
+    font-size: 0.5rem;
+    margin: 8px 0;
+}
 
-/* ------- story section end --------- */
+.singleMiniCard{
+    max-width: 450px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.singleMiniCard:hover{
+    transform: scale(102%);
+}
+
+.miniCardTextDiv button{
+    padding: 5px 8px;
+    border-radius: 40px;
+    font-size: 0.6rem;
+    font-weight: 400;
+
+}
+
+.storyCardRight{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.storyButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.storyButton button{
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 10px;
+    padding: 12px 55px;
+    background-color: #000000;
+    transition: all 0.3s ease-in-out;
+
+}
+
+
+.storyButton button:hover{
+    transform: scale(105%);    
+
+ }
+
+
+/* ------ story section card style end ------- */
 
 
 
@@ -1156,6 +1685,90 @@
 /* -------- banner section end --------- */
 
 
+/* ------ story section card style ------- */
+
+
+
+.storyContainer h3{
+    font-size: 2rem;
+    padding: 50px 0 70px;
+
+}
+
+
+.storyCardTextDiv{
+    padding: 15px;
+    
+}
+
+.storyCardTextDiv h5{
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: left;
+    margin: 20px 0;
+}
+
+.storyCardTextDiv p{
+    font-size: 0.7rem;
+    font-weight: 400;
+    text-align: left;
+    color: #666666;
+    padding: 10px 0;
+}
+
+
+
+.miniCardTextDiv h5{
+    font-size: 0.6rem;
+    margin: 8px 0;
+}
+
+.miniCardTextDiv{
+    position: relative;
+
+}
+
+
+.miniCardTextDiv button{
+    padding: 5px 8px;
+    border-radius: 40px;
+    font-size: 0.5rem;
+    font-weight: 400;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+
+}
+
+.storyCardRight{
+    gap: 10px;
+
+}
+
+.storyButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.storyButton button{
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 10px;
+    padding: 12px 45px;
+   
+
+}
+
+
+
+/* ------ story section card style end ------- */
+
+
+
+
 
 
 }
@@ -1224,6 +1837,188 @@
     }
 
 /* -------- banner section end --------- */
+
+
+
+/* ------ story section card style ------- */
+
+
+#storySection{
+    width: 100vw;
+    height: 100%;
+    background: linear-gradient(rgba(228, 210, 210, 0.1),rgba(61, 19, 19, 0.4)), url('assets/bg.png');
+    background-position: center;        
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 70px;
+}
+
+
+.storyContainer h3{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    padding: 60px 0 80px;
+
+}
+
+.storyCardParent{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.storyCardLeft{
+    width: 100%;
+    max-width: 850px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.storyCardLeft:hover{
+    transform: scale(101%);
+}
+
+
+.storyCardRight{
+    width: 100%;
+}
+
+
+.storySingleCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    width: 100%;
+    
+
+}
+
+.storyCardImageDiv{
+    width: 100%;
+}
+
+.storyCardImageDiv img{
+    width: 100%;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.storyCardTextDiv{
+    padding: 30px;
+    margin-top: -5px;
+    background-color: #ffffff;
+    width: 100%;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    position: relative;
+}
+
+.storyCardTextDiv h5{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: left;
+    margin: 20px 0;
+}
+
+.storyCardTextDiv p{
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-align: left;
+    color: #666666;
+    padding: 20px 0;
+}
+
+.storyCardTextDiv button{
+    padding: 12px 20px;
+    border-radius: 47px;
+    background-color: #3CD8E8;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-size: 0.8rem;
+    font-weight: 500;
+    position: absolute;
+    top: 0;
+    left: 30px;
+    margin-top: -20px;
+    transition: all 0.3s ease-in-out;  
+    
+}
+
+
+.storyCardTextDiv button:hover{
+    transform: scale(105%);
+}
+
+
+
+.miniCardTextDiv h5{
+    font-size: 0.9rem;
+    margin: 8px 0;
+}
+
+.singleMiniCard{
+    max-width: 450px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.singleMiniCard:hover{
+    transform: scale(102%);
+}
+
+.miniCardTextDiv button{
+    padding: 9px 16px;
+    border-radius: 44px;
+    font-size: 0.7rem;
+    font-weight: 400;
+
+}
+
+.storyCardRight{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.storyButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 0;
+}
+
+.storyButton button{
+    font-size: 22px;
+    font-weight: 700;
+    border-radius: 10px;
+    padding: 12px 55px;
+    background-color: #000000;
+    transition: all 0.3s ease-in-out;
+
+}
+
+
+.storyButton button:hover{
+    transform: scale(105%);    
+
+ }
+
+
+/* ------ story section card style end ------- */
+
+
+
+
 
 
 
