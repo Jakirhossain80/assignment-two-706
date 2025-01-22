@@ -233,8 +233,6 @@
 
 
 
-
-
 /*---------------- media query ------------------*/
 
 
@@ -671,6 +669,83 @@
 
 
 
+
+/* ------ footer style start --------- */
+
+#footerSection{
+    width: 100vw;
+    background-color: #01acfd;
+    padding: 100px 0;
+}
+
+.footerContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-center;
+    align-items: start;
+    gap: 20px;
+    
+}
+
+.footerImage{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+    
+}
+
+.footerImage p{
+    color: #ffffff;
+    font-size: 0.8rem;
+    font-weight: 500;
+
+}
+
+.footerImage img{
+    width: 70px;
+    display: inline-block;
+}
+
+.footerOne h6{
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 400;
+    
+}
+
+
+.footerTwo h3{
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.footerTwo ul li{
+    list-style: none;
+    padding: 10px 0;
+}
+
+.footerTwo ul li a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #ffffff;
+    
+}
+
+.footerThree h4{
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 20px;
+
+}
+
+/* ------ footer style end   --------- */
 
 
 
@@ -1112,6 +1187,83 @@
 /* ------ story section card style end ------- */
 
 
+
+/* ------ footer style start --------- */
+
+#footerSection{
+    width: 100vw;
+    background-color: #01acfd;
+    padding: 100px 0;
+}
+
+.footerContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-center;
+    align-items: start;
+    gap: 20px;
+    
+}
+
+.footerImage{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+    
+}
+
+.footerImage p{
+    color: #ffffff;
+    font-size: 0.8rem;
+    font-weight: 500;
+
+}
+
+.footerImage img{
+    width: 70px;
+    display: inline-block;
+}
+
+.footerOne h6{
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 400;
+    
+}
+
+
+.footerTwo h3{
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.footerTwo ul li{
+    list-style: none;
+    padding: 10px 0;
+}
+
+.footerTwo ul li a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #ffffff;
+    
+}
+
+.footerThree h4{
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 20px;
+
+}
+
+/* ------ footer style end   --------- */
 
 
 
@@ -1608,6 +1760,83 @@
 
 
 
+/* ------ footer style start --------- */
+
+#footerSection{
+    width: 100vw;
+    background-color: #01acfd;
+    padding: 100px 0;
+}
+
+.footerContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    gap: 20px;
+    
+}
+
+.footerImage{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+    
+}
+
+.footerImage p{
+    color: #ffffff;
+    font-size: 0.8rem;
+    font-weight: 500;
+
+}
+
+.footerImage img{
+    width: 70px;
+    display: inline-block;
+}
+
+.footerOne h6{
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 400;
+    
+}
+
+
+.footerTwo h3{
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.footerTwo ul li{
+    list-style: none;
+    padding: 10px 0;
+}
+
+.footerTwo ul li a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #ffffff;
+    
+}
+
+.footerThree h4{
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 20px;
+
+}
+
+/* ------ footer style end   --------- */
+
 
 
 
@@ -1765,6 +1994,84 @@
 
 
 /* ------ story section card style end ------- */
+
+
+
+/* ------ footer style start --------- */
+
+#footerSection{
+    width: 100vw;
+    background-color: #01acfd;
+    padding: 100px 0;
+}
+
+.footerContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 20px;
+    
+}
+
+.footerImage{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+    
+}
+
+.footerImage p{
+    color: #ffffff;
+    font-size: 0.8rem;
+    font-weight: 500;
+
+}
+
+.footerImage img{
+    width: 70px;
+    display: inline-block;
+}
+
+.footerOne h6{
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 400;
+    
+}
+
+
+.footerTwo h3{
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.footerTwo ul li{
+    list-style: none;
+    padding: 10px 0;
+}
+
+.footerTwo ul li a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #ffffff;
+    
+}
+
+.footerThree h4{
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 20px;
+
+}
+
+/* ------ footer style end   --------- */
 
 
 
@@ -2017,7 +2324,81 @@
 /* ------ story section card style end ------- */
 
 
+/* ------ footer style start --------- */
 
+#footerSection{
+    width: 100vw;
+    background-color: #01acfd;
+    padding: 100px 0;
+}
+
+.footerContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 20px;
+    
+}
+
+.footerImage{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+    
+}
+
+.footerImage p{
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 700;
+
+}
+
+.footerImage img{
+    width: 70px;
+    display: inline-block;
+}
+
+.footerOne h6{
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 400;
+    
+}
+
+
+.footerTwo h3{
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.footerTwo ul li{
+    list-style: none;
+    padding: 10px 0;
+}
+
+.footerTwo ul li a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #ffffff;
+    
+}
+
+.footerThree h4{
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 20px;
+
+}
+
+/* ------ footer style end   --------- */
 
 
 
